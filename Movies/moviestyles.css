@@ -8,7 +8,7 @@
 }
 
 .head-bttn{
-    color:#ffffff;
+    color:#FAF8FC;
     font-family: Montserrat;
     font-weight: bold;
     background: none;
@@ -17,26 +17,58 @@
     /*line-height: 23px;*/
     letter-spacing: 1.42px;
     margin: 15px 30px 15px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .head-bttn:hover{
     text-decoration: underline;
 }
 
-.accordion{
+#icon{
+    margin-right: 10px;
+}
+
+.profile{                               /*Contenedor del perfil*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion{                             /*Botón acordeón del perfil*/
     cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 10em;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    background-color: #151722;
+    
 }
 
-.profile{
-    text-align: left;
-}
-
-.panel{
+.panel{                                     /*Panel de opciones oculto*/
     display: none;
     overflow: hidden;
+    border: none;
+    background-color: #0E0F15;
+    color: #D9D9D9;    
+    font-family: Montserrat;
+    font-size: 12px;
 }
 
-.title{
+#pic{                                       /*Foto de perfil*/
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.title{                                     /*Nombre de la página*/
     color: #ffffff;
     font-family: Montserrat;
     font-weight: bold;
@@ -47,19 +79,19 @@
     align-items: initial;
 }
 
-#select{
-    /*background-color: #0E0F15;*/
+#select{                                    /*Menú select con las categorías*/
     background: linear-gradient(#313238, #363742);
     height: 36px;
     border-radius: 100px 100px 100px 100px;
     border-color: #1A1D29;
     color: #FFFFFF;
     font-family: Montserrat;
-    text-align: center;
+    text-align: justify;
     filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.3));
     display: block;
     align-self: center;
     margin-left: 16px;
+    cursor: pointer;
 }
 
 #select:hover{
@@ -91,6 +123,7 @@ body {
     background: no-repeat center/100% url(red.jpg);                         /* Para centrar la imagen           */
     filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.3));
     margin: 10px;
+    cursor: pointer;
 }
 
 #red{
@@ -197,6 +230,7 @@ a{
 
 #link{
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .about{
