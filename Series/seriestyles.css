@@ -1,0 +1,259 @@
+.header{
+    background-color: #151722;
+    height: 82px;
+    filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+}
+
+.head-bttn{
+    color:#FAF8FC;
+    font-family: Montserrat;
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-size: 12px;
+    /*line-height: 23px;*/
+    letter-spacing: 1.42px;
+    margin: 15px 30px 15px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head-bttn:hover{
+    text-decoration: underline;
+}
+
+#icon{
+    margin-right: 10px;
+}
+
+.profile{                               /*Contenedor del perfil*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion{                             /*Botón acordeón del perfil*/
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 10em;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    background-color: #151722;
+    
+}
+
+.panel{                                     /*Panel de opciones oculto*/
+    display: none;
+    overflow: hidden;
+    border: none;
+    background-color: #0E0F15;
+    color: #D9D9D9;    
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
+#pic{                                       /*Foto de perfil*/
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.title{                                     /*Nombre de la página*/
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding-left: 3.5rem;
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+}
+
+#select{                                    /*Menú select con las categorías*/
+    background: linear-gradient(#313238, #363742);
+    height: 36px;
+    border-radius: 100px 100px 100px 100px;
+    border-color: #1A1D29;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-align: justify;
+    filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.3));
+    display: block;
+    align-self: center;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+#select:hover{
+    background-color: #0E0F15;
+}
+
+/*********************************************************************************************************************/
+body {
+    background-color: #1A1D29;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 0em;
+    margin: 0em;
+}
+
+.series{
+    padding: 1.5rem;                                                                                                                                   
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.banner{
+    border: none;
+    width: 268px;
+    height: 158px;
+    background: no-repeat center/100% url(owlhouse.jpg);                         /* Para centrar la imagen           */
+    filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.3));
+    margin: 10px;
+    cursor: pointer;
+}
+
+#red{
+    background: no-repeat center/100% url(amphibia.jpg);
+}
+#zootopia{
+    background: no-repeat center/100% url(zootopia.jpg);
+}
+#tangled{
+    background: no-repeat center/100% url(andi.jpg);
+}
+#flubber{
+    background: no-repeat center/100% url(clubhouse.jpg);
+}
+#beauty{
+    background: no-repeat center/100% url(hawkeye.jpg);
+}
+#bighero{
+    background: no-repeat center/100% url(dino.jpg);
+}
+#cinderella{
+    background: no-repeat center/100% url(loki.jpg);
+}
+#aladdin{
+    background: no-repeat center/100% url(funhouse.jpg);
+}
+#elton{
+    background: no-repeat center/100% url(malcolm.jpg);
+}
+#lilo{
+    background: no-repeat center/100% url(montaner.jpg);
+}
+#narnia{
+    background: no-repeat center/100% url(moonknight.jpg);
+} 
+#encanto{
+    background: no-repeat center/100% url(msmarvel.jpg);
+}
+#raya{
+    background: no-repeat center/100% url(mysteriousben.jpg);
+}
+#moana{
+    background: no-repeat center/100% url(obiwan.jpg);
+}
+#tiana{
+    background: no-repeat center/100% url(onceupon.jpg);
+}
+#disenchanted{
+    background: no-repeat center/100% url(puppy.jpg);
+}
+#maleficent{
+    background: no-repeat center/100% url(scale.jpg);
+}
+#mulan{
+    background: no-repeat center/100% url(secrets.jpg);
+}
+#coco{
+    background: no-repeat center/100% url(shehulk.jpg);
+}
+#toystory{
+    background: no-repeat center/100% url(simpsons.jpg);
+}
+#incredibles{
+    background: no-repeat center/100% url(wandavision.jpg);
+}
+#incredibles2{
+    background: no-repeat center/100% url(willow.jpg);
+}
+#deadpool{
+    background: no-repeat center/100% url(andor.jpg);
+}
+
+.banner:hover{
+    border: 4.5px solid rgba(251, 251, 249, 0.7);
+    border-radius: 5px;
+}
+
+/******************************************************************************************************************************************/
+footer{
+    background-color: #151722;
+    color: #FFFFFF;
+    height: 278px;
+    width: auto;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5em 5em 1.5em 1.5em;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.user{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#link{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.about{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
