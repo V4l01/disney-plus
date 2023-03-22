@@ -1,0 +1,140 @@
+
+/* Nota: estos estilos ayudaron a modificar el texto que estaba dentro del contenedor antes de la imagen, pero de momento se aplican a cualquier fuente h1 y en general dentro del HTML*/
+html {
+    font-family: sans-serif;
+
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+/* Nota: estos son los estilos del carrusel*/
+
+.contenedor-full {
+    
+    background-color: #313239;
+    height: 100%;
+    
+
+}
+
+.slider-container { 
+    background-color: #313239;
+    height: 300px; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
+
+.banner{
+    
+    background-color: chartreuse;
+    height: 247; 
+    width: 892;
+    border-radius: 10px;
+    border-bottom: 20%;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0rem 0.06rem 0.25rem rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease;
+    align-items: center;
+    
+    
+}
+
+.ban {
+    
+    height: 247;
+    width: 892;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.banner .redondo {
+    display: block;
+    height:25px;
+    width: 25px;
+    border-radius: 50px;
+ 
+}
+
+/* .slider-container{
+    display:flex;
+    width: 100%;
+    height:100vh;
+    overflow-x:scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.slider-container banner{
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+
+    }
+
+/* Nota: Este es el contenedor de mis canales */
+
+.lista-canales {
+    background-color: #313239;
+    height: 400px;
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Nota: Estas son las características del botón que contiene la información del canal */
+.content {
+
+    background: linear-gradient(#151722, #2C2E39);
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    border-bottom: 20%;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0rem 0.06rem 0.25rem rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease;
+
+}
+
+
+/* Nota: este nud todavía no tiene funcionalidad 
+video {
+    object-fit: contain;
+    overflow: clip;
+} */
+
+/* Nota: esta clase pretende ser hover con video, aún no logrado 
+.content:hover .hover-img {} */
+
+/* Nota: este hover es funcional y sirve para que el botón de canales crezca con sombra{} */
+
+.content:hover {
+    box-shadow: 0rem 0.25rem 1.5rem rgba(0, 0, 0, 0.16);
+    width: 320px;
+    height: 190px;
+}
+
+.content:hover {
+
+    box-shadow: gray;
+
+}
