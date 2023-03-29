@@ -1,0 +1,246 @@
+.header{
+    background-color: #151722;
+    height: 86px;
+    filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+
+}
+                                   /**************Menu****************/
+
+
+.head-button{
+    color: #faf8fc;
+    font-family: avenir;
+    font-weight: bold;
+    background: none;
+    font-size: 12px;
+    letter-spacing: 1.42px;
+    border: none;
+    margin: 16px 32px 16px 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head-button:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    margin-right: 16px;
+
+}
+
+.profile{                               /*Contenedor del perfil*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: avenir;
+    font-size: 15px;
+}
+
+.accordion{                             /*Botón acordeón del perfil*/
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 10em;
+    color: #FFFFFF;
+    font-family: avenir;
+    font-size: 14px;
+    background-color: #151722;
+    
+}
+
+.panel{                                     /*Panel de opciones oculto*/
+    display: none;
+    overflow: hidden;
+    border: none;
+    background-color: #0E0F15;
+    color: #D9D9D9;    
+    font-family: avenir;
+    font-size: 12px;
+}
+
+#pic{                                       /*Foto de perfil*/
+    margin-left: 16px;
+    height: 40px;
+    width: 40px;
+}
+
+.title{                                     /*Nombre de la página*/
+    color: #f9f9f9;
+    font-family: avenir;
+    font-weight: bold;
+    padding-left: 114px;
+    font-size: 44px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 0px;
+    padding-top:10;   
+    flex-direction: row;                                                                                                                              
+    align-content: left;
+    
+}
+
+.subtitle{
+    color: #f9f9f9;
+    font-family: avenir;
+    font-weight: bold;
+    padding-left: 114px;
+    font-size: 20px;
+    letter-spacing: .11px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+    line-height: 14px;
+    align-content: left;
+}
+
+
+
+body{
+    padding: 0rem;
+    margin: 0rem;
+    background-color: #1a1d29;
+    font-family: avenir;
+    padding: 0em;
+    margin: 0em;
+}
+
+
+
+/********ESTILOS DE LA LISTA DE PELICULAS****************/
+
+.series{
+    padding: 1.5rem;                                                                                                                                   
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    padding-left: 114px;
+    border-radius: 4px;
+}
+
+.banner{
+    border: none;
+    width: 268px;
+    height: 158px;
+    filter: drop-shadow(0px 16px 13px rgba(0, 0, 0, 0.3));
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#miley{
+    background: no-repeat center/100% url(moviedisney.jpeg);
+}
+#turningred{
+    background: no-repeat center/100% url(turningred_disneyplus.jpeg);
+}
+#gravityfalls{
+    background: no-repeat center/100% url(gravityfalls_disneyplus.jpeg);
+}
+#malcom{
+    background: no-repeat center/100% url(Malcom.jpeg);
+}
+
+.banner:hover{
+    border: 4.5px solid rgba(251, 251, 249, 0.7);
+    border-radius: 4px;
+}
+
+.footer{
+   background-color:#151722;
+   height: 278px;
+   width: auto;
+   font-weight: 300;
+   display: flex;
+   align-items: center;
+   padding: 1.5em 5em 1em 1.5em;
+   font-family: avenir;
+   color:#cacaca;
+   flex-direction: column;
+}
+
+
+
+a{
+    color: #cacaca;
+}
+
+
+
+.user{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    color:#cacaca;
+    padding: 1px 6px;
+}
+
+.user2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    color:#cacaca;
+    padding: 1px 6px;
+}
+
+#link{
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: avenir;
+    color:#cacaca;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 1em;
+    margin: 0em;
+    font-size: 12px;
+    letter-spacing: -.1px;
+    line-height: 1.5;
+    font-family: avenir;
+    color:#cacaca;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 1em;
+    margin: 0em;
+    font-size: 12px;
+    letter-spacing: -.1px;
+    line-height: 1.5px;
+    font-family: avenir;
+    color:#cacaca;
+}
+
+
+
