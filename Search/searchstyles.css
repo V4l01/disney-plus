@@ -30,6 +30,10 @@
     margin-right: 10px;
 }
 
+a{
+    color:#FFFFFF;
+}
+
 .profile{                               /*Contenedor del perfil*/
     display: flex;
     justify-content: center;
