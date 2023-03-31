@@ -31,6 +31,10 @@
     margin-right: 10px;
 }
 
+a{
+    color:#FFFFFF;
+}
+
 .profile{                               /*Contenedor del perfil*/
     display: flex;
     justify-content: center;
@@ -128,73 +132,73 @@ body {
 }
 
 #red{
-    background: no-repeat center/100% url(amphibia.jpg);
+    background: no-repeat center/100% url(img/amphibia.jpg);
 }
 #zootopia{
-    background: no-repeat center/100% url(zootopia.jpg);
+    background: no-repeat center/100% url(img/zootopia.jpg);
 }
 #tangled{
-    background: no-repeat center/100% url(andi.jpg);
+    background: no-repeat center/100% url(img/andi.jpg);
 }
 #flubber{
-    background: no-repeat center/100% url(clubhouse.jpg);
+    background: no-repeat center/100% url(img/clubhouse.jpg);
 }
 #beauty{
-    background: no-repeat center/100% url(hawkeye.jpg);
+    background: no-repeat center/100% url(img/hawkeye.jpg);
 }
 #bighero{
-    background: no-repeat center/100% url(dino.jpg);
+    background: no-repeat center/100% url(img/dino.jpg);
 }
 #cinderella{
-    background: no-repeat center/100% url(loki.jpg);
+    background: no-repeat center/100% url(img/loki.jpg);
 }
 #aladdin{
-    background: no-repeat center/100% url(funhouse.jpg);
+    background: no-repeat center/100% url(img/funhouse.jpg);
 }
 #elton{
-    background: no-repeat center/100% url(malcolm.jpg);
+    background: no-repeat center/100% url(img/malcolm.jpg);
 }
 #lilo{
-    background: no-repeat center/100% url(montaner.jpg);
+    background: no-repeat center/100% url(img/montaner.jpg);
 }
 #narnia{
-    background: no-repeat center/100% url(moonknight.jpg);
+    background: no-repeat center/100% url(img/moonknight.jpg);
 } 
 #encanto{
-    background: no-repeat center/100% url(msmarvel.jpg);
+    background: no-repeat center/100% url(img/msmarvel.jpg);
 }
 #raya{
-    background: no-repeat center/100% url(mysteriousben.jpg);
+    background: no-repeat center/100% url(img/mysteriousben.jpg);
 }
 #moana{
-    background: no-repeat center/100% url(obiwan.jpg);
+    background: no-repeat center/100% url(img/obiwan.jpg);
 }
 #tiana{
-    background: no-repeat center/100% url(onceupon.jpg);
+    background: no-repeat center/100% url(img/onceupon.jpg);
 }
 #disenchanted{
-    background: no-repeat center/100% url(puppy.jpg);
+    background: no-repeat center/100% url(img/puppy.jpg);
 }
 #maleficent{
-    background: no-repeat center/100% url(scale.jpg);
+    background: no-repeat center/100% url(img/scale.jpg);
 }
 #mulan{
-    background: no-repeat center/100% url(secrets.jpg);
+    background: no-repeat center/100% url(img/secrets.jpg);
 }
 #coco{
-    background: no-repeat center/100% url(shehulk.jpg);
+    background: no-repeat center/100% url(img/shehulk.jpg);
 }
 #toystory{
-    background: no-repeat center/100% url(simpsons.jpg);
+    background: no-repeat center/100% url(img/simpsons.jpg);
 }
 #incredibles{
-    background: no-repeat center/100% url(wandavision.jpg);
+    background: no-repeat center/100% url(img/wandavision.jpg);
 }
 #incredibles2{
-    background: no-repeat center/100% url(willow.jpg);
+    background: no-repeat center/100% url(img/willow.jpg);
 }
 #deadpool{
-    background: no-repeat center/100% url(andor.jpg);
+    background: no-repeat center/100% url(img/andor.jpg);
 }
 
 .banner:hover{

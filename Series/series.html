@@ -2,35 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="img/disneyplus.png"/>
     <title>Disney+ | Series</title>
     <link rel="stylesheet" href="seriestyles.css">
 </head>
 <body>
-    <div class="header">
-        <button id="logo" type="button" class="head-bttn"> <img src="disneyplus.png" alt="Disney+" height="42px" width="76.4px"></button>
-        <button type="button" class="head-bttn"><img src="Home.png" id="icon">HOME</button>
-        <button type="button" class="head-bttn"><img src="Search.png" id="icon">SEARCH</button>
-        <button type="button" class="head-bttn"><img src="watchlist.png" id="icon">WATCHLIST</button>
-        <button type="button" class="head-bttn"><img src="ORIGINALES.png" id="icon">ORIGINALS</button>
-        <button type="button" class="head-bttn"><img src="PELICULAS.png" id="icon">MOVIES</button>
-        <button type="button" class="head-bttn"><img src="SERIES.png" id="icon">SERIES</button>
-        
-        <div class="profile">
-            <button class="accordion" type="button">Val<img id="pic" src="merida.png" alt="Profile" height="20px" width="20px"></button>
-            <div class="panel">
-                <button id="name" type=""><img id="pic" src="merida.png" alt="Profile">Ale</button>
-                <button id="name" type=""><img id="pic" src="merida.png" alt="Profile">Karen</button>
-                <button id="name" type=""><img id="pic" src="merida.png" alt="Profile">Add profile</button>
+    <!--Barra de navegación: botones destacables y acordeón de perfiles de usuario.------->
+    <nav class="header">
+        <button id="logo" type="button" class="head-bttn"> <img src="img/disneyplus.png" alt="Disney+" height="42px" width="76.4px"></button>
+        <button type="button" class="head-bttn"><a href=""></a><img src="img/Home.png" id="icon"><a href="">HOME</a></button> <!--Insertar link entre las comillas de la etiqueta a href-->
+        <button type="button" class="head-bttn"><img src="img/Search.png" id="icon"><a href="">SEARCH</a></button> <!--Insertar link entre las comillas de la etiqueta a href-->
+        <button type="button" class="head-bttn"><img src="img/watchlist.png" id="icon"><a href="">WATCHLIST</a></button> <!--Insertar link entre las comillas de la etiqueta a href-->
+        <button type="button" class="head-bttn"><img src="img/ORIGINALES.png" id="icon"><a href="">ORIGINALS</a></button> <!--Insertar link entre las comillas de la etiqueta a href-->
+        <button type="button" class="head-bttn"><img src="img/PELICULAS.png" id="icon"><a href="">MOVIES</a></button> <!--Insertar link entre las comillas de la etiqueta a href-->
+        <button type="button" class="head-bttn"><img src="img/SERIES.png" id="icon"><a href="">SERIES</a></button> <!--Insertar link entre las comillas de la etiqueta a href-->
+        <!--Creamos un acordeón con dos contenedores (perfiles y configuraciones).------->        
+        <div class="profile"> <!--El perfil que ve el usuario actual.------->
+            <button class="accordion" type="button">Val<img id="pic" src="img/stitch.png" alt="Profile" height="20px" width="20px"></button>
+            <div class="panel"> <!--Panel para los otras cuentas de usuario.------->
+                <button id="name" type="button"><img id="pic" src="img/doug.png" alt="Profile">Ale</button>
+                <button id="name" type="button"><img id="pic" src="img/violet.png" alt="Profile">Karen</button>
+                <button id="name" type="button"><img id="pic" src="img/add.png" alt="Profile">Add profile</button>
             </div>
-            <div class="panel">
+            <div class="panel"> <!--Panel para las configuraciones.------->
                 <button id="edit" type="text">Edit profiles</button>
                 <button id="settings" type="text">App settings</button>
                 <button id="account" type="text">Account</button>
                 <button id="help" type="text">Help</button>
                 <button id="logout" type="text">Log out</button>
-            </div>
+            </div> <!--NOTA: Estos paneles NO son visibles desde HTML, hasta ser implementado en JS.------->
         </div>
-    </div>
+    </nav>
 
     <div class="title">
         <p>Series</p>
@@ -97,7 +99,7 @@
     </div>
 </body>
 <footer>
-    <img id="disney" src="disneyplus.png" width="82px" height="44px">
+    <img id="disney" src="img/disneyplus.png" width="82px" height="44px">
     <ul class="user">
         <li id="link"><a href="https://www.disneyplus.com/legal/privacy-policy">Privacy Policy</a></li>
         <li id="link"><a href="https://www.disneyplus.com/legal/privacy-notice">Privacy Notice</a></li>
